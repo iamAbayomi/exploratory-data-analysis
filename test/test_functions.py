@@ -1,5 +1,5 @@
 from pytest import approx
-from module.user_functions import *
+from modules.user_functions import *
 
 # Functions to test user defined functions.
 
