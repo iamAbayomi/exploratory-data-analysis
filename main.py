@@ -1,6 +1,6 @@
 #This program is built to analyse and visualise datasets
 #ID: A00316019
-from  module.user_functions import *
+from  modules.user_functions import *
 
 
 # Variables Declaration
@@ -25,7 +25,7 @@ def readfile():
     filename = input("\n Please input the csv file directory or enter [d] to default file: ")
 
     if filename == "d":
-        filename = "credit_card.csv"
+        filename = "data/credit_card.csv"
 
     try:
         #opening the file
