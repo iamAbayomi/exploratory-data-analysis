@@ -1,17 +1,23 @@
-# Project Title
+# Exploratory Data Analysis
+This project is an exploratory data analysis on a credit card bank data set with over 10,000 entries, providing information about customers' demographics, financial status, educational background, and credit card usage. Originally containing 18 columns, it has been condensed to 12 for this study.
 
-One Paragraph of project description goes here
+The data analyis showed that credit companies need to improve financial literacy since higher educational level does not improve financial literacy
+
+The link to the datasets can be found https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers/data 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to install the application and how to install them
 
 ```
-Give examples
+python
+pytest
+matplotlib
+
 ```
 
 ### Installing
@@ -21,16 +27,11 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-Give the example
-```
+pip install python
+pip install pytest
+pip install matplotlib
 
-And repeat
-
 ```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
@@ -44,13 +45,6 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
@@ -66,9 +60,7 @@ Add additional notes about how to deploy this on a live system
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
